@@ -6,7 +6,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "./apss/**/*.{js,tsx}": [
+    "./apps/**/*.{js,tsx}": [
       "eslint --fix"
     ]
   },
