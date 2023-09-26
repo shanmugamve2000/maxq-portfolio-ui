@@ -1,4 +1,5 @@
 import './global.css';
+import Header from '../../common/components/header/header';
 
 export const metadata = {
   title: 'Welcome to registration',
@@ -12,7 +13,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+
+      <body>
+        <Header/>
+        {children}
+      </body>
     </html>
   );
 }

@@ -1,12 +1,12 @@
 /* eslint-disable */
 export default {
-  displayName: 'registration',
+  displayName: 'common',
   preset: '../../jest.preset.js',
   transform: {
     '^(?!.*\\.(js|jsx|ts|tsx|css|json)$)': '@nx/react/plugins/jest',
     '^.+\\.[tj]sx?$': ['babel-jest', { presets: ['@nx/next/babel'] }],
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  collectCoverageFrom:["./app/*.tsx"],
-  coverageDirectory: '../../coverage/apps/registration'
+  collectCoverageFrom:["./**/*.tsx"],
+  coverageDirectory: '../../coverage/apps/common',
 };
