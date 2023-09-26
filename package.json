@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "precommit": "lint-staged"
+    "prepare": "husky install"
   },
   "lint-staged": {
     "./apss/**/*.{js,tsx}": [
