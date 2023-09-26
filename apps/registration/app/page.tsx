@@ -8,8 +8,16 @@ export default function Registration() {
    */
   return (
     <div>
-     <h1><b>Registration Page</b></h1>
-     <input type='text' title='User Name' className={styles.maxq_in_text_border}></input>
+      <h1>
+        <b>Registration Page</b>
+      </h1>
+      <input
+        type="text"
+        title="User Name"
+        className={styles.maxq_in_text_border}
+      >
+        Name
+      </input>
     </div>
   );
 }
