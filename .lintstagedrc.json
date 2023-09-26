@@ -1,0 +1,10 @@
+{
+"{apps,libs,tools}/**/*.{ts,tsx,jsx,json,js}":  [
+   "nx format:write --base=HEAD", 
+   "nx affected --target=lint --base=HEAD "
+
+],
+"{apps,libs,tools}/**/*.{css,scss}":  [   "nx affected --target=lint-styles --base=HEAD "
+]
+
+}
