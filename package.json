@@ -3,12 +3,6 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "prepare": "husky install"
-  },
-  "lint-staged": {
-    "./apps/**/*.{js,tsx}": [
-      "eslint --fix"
-    ]
   },
   "private": true,
   "dependencies": {
