@@ -47,3 +47,5 @@ jobs:
       uses: 'google-github-actions/auth@v0'
       with:
         credentials_json: '${{ secrets.MAXQ_GCP_GKE_AUTH }}'
+    - name: Install dependencies
+      run: npm install
